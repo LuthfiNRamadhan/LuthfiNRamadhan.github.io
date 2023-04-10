@@ -1,0 +1,264 @@
+/* ========== Font-Style ========== */
+/* Poppins */    
+.poppins {font-family: Poppins;}
+/* Montserrat */ 
+.montserrat {font-family: Montserrat;}
+
+
+/* ========== CSS Reset ========== */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* ========== My H3 ==========*/
+.h3-style {
+    padding: 1.5em 0 1.3em 0;
+    font-family: Montserrat;
+}
+
+
+.bg-style {
+    background-color: #CF1102 !important;
+}
+
+.text-style-red {
+    color: #CF1102!important;
+}
+.text-style-yellow {
+    color: #ffb223!important;
+}
+
+
+/* Header */
+.h4-header {font-family: Poppins;}
+
+/* Navbar */
+nav {font-family: Poppins;
+}
+.nav-link {padding-right: 60px !important;}
+
+/* Jumbotron / Hero Main */
+.jumbotron {
+    min-height: 300px;
+    padding: 20% 0 30% 0;
+    background-image: url(img/tao.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+
+h2 {
+    font-family: Poppins;
+    padding: 10% 0 5% 0;
+    font-size: 28px!important;
+    text-shadow: 1px 1px black;
+}
+center p {
+    text-shadow: 1px 1px black;
+}
+center {
+    font-family: Montserrat;
+    font-size: 16px;
+    margin: 0 50px 0 50px;
+    font-weight: normal!important;
+}
+
+/* Gallery */
+.card-body {margin-bottom: 40px;}
+.card-text {font-size: 16px;}
+
+.btn-nav {
+    margin: 0!important;
+    padding: 0!important;
+}
+.btn-login {
+    margin-top: 5px;
+}
+
+
+/* Portofolio */
+.portofolio {
+    background-color: rgba(88, 101, 242, 255);
+    background-image: url(img/tao.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.p-porto {
+    width: 350px;
+    font-weight: 100!important;
+    font-size: 12px;
+    font-weight: 100!important;
+    font-family: Montserrat;
+    text-shadow: 1px 1px black;
+}
+.btn-style {
+    padding: 15px 15px 15px 15px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: normal;
+}
+.link-porto {
+    font-size: 12px!important;
+    font-family: Montserrat;
+}
+a {
+    text-decoration: none!important;
+}
+.link-porto a:hover {
+    text-decoration: underline;
+    color: #ffb223!important;
+    
+}
+
+/* Contact */
+.p-contact {
+    font-size: 12px;
+    font-family: Montserrat;
+}
+
+/* About Me */
+.h1-about {
+    text-align: center;
+}
+.p-about {
+    text-align: center;
+    font-family: Montserrat;
+}
+
+/* Footer */
+.footer-logo .widget {
+    font-family: Poppins;
+    font-weight: lighter;
+}
+.list-footer {
+    list-style-type: none;
+}
+.a-footer {
+    font-family: Montserrat;
+    font-size: 14px;
+}
+.a-footer:hover {
+    font-family: Montserrat;
+    font-size: 14px;
+    color: salmon!important;
+}
+.li-link-footer {
+    margin-top: 6px;
+}
+.all-list-footer {
+    margin-left: 15%!important;
+    margin-bottom: 20px;
+}
+
+/* ===== Footer Icon Color ===== */
+    /* == Facebook == */
+        .facebook-color-icon {background: #3b5998; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+    /* == Instagram == */
+        .instagram-color-icon {background: #FEDA75; background: linear-gradient(to top right, #FEDA75 0%, #FA7E1E 20%, #962FBF 67%, #4F5BD5 97%, #D62976 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+    /* == Linked In == */
+        .linkedin-color-icon {background: #0E76A8; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+    /* == Instagram == */
+        .github-color-icon {background: white; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+    /* == Instagram == */
+        .twitter-color-icon {background: #00acee; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+    /* == Instagram == */
+        .wa-color-icon {background: #25D366; -webkit-background-clip: text; -webkit-text-fill-color: transparent;}
+
+@media (min-width: 1200px) {
+    /* Navbar */
+    .navbar-brand {margin-left: 50px;}
+    .btn-login {
+        margin-left: 80px;
+        margin-top: 3px;
+    }
+    .btn-daftar {
+        margin-left: 30px;
+        margin-top: 3px;
+    }
+
+    /* Jumbotron */
+    .jumbotron {
+        min-height: 300px;
+        padding: 0;
+        background-image: url(img/tao.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 0 25px;
+        overflow: hidden;
+    }
+    h2 {font-size: 50px!important;}
+    center {font-size: 20px;}
+
+    /* Portofolio */
+    .portofolio {
+        background-color: rgba(88, 101, 242, 255);
+        background-image: url(img/tao.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 0 25px;
+        overflow: hidden;
+    }
+
+    .p-porto {
+        text-align: center;
+        width: 650px;
+        font-size: 16px;
+        font-weight: 100!important;
+        font-family: Montserrat;
+    }
+    .link-porto {
+        font-family: Montserrat;
+        font-size: 16px!important;
+    }
+
+
+    
+    /* Contact */
+    .p-contact {
+        font-size: 16px;
+        font-family: Montserrat;
+    }
+
+    /* About Me */
+    .h1-about {
+        margin: 30px 0px 10px 20px;
+        font-size: 45px!important;
+        font-family: Poppins;
+        font-weight: bolder;
+        text-align: start;
+    }
+    .p-about {
+        font-family: Montserrat;
+        font-size: 16px;
+        margin: 40px 0 50px 20px;
+        text-align: start;
+    }
+    .hr-about {
+        width: 100px;
+        margin: 0 0 0 20px;
+    }
+
+    /* Footer */
+    .li-link-footer {
+        margin-top: 10px;
+    }
+    
+    .all-list-footer {
+    margin-left: 0!important;
+    margin-bottom: 0!important;
+    }
+ }
+
+ @media (max-width: 1200px) {
+    /* Navbar */
+    .btn-daftar {
+        margin-top: 5px;
+    }
+ }
